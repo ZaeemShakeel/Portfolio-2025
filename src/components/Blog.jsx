@@ -2,8 +2,8 @@ import React from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import web1 from "../assets/Recent Works/web1.jpg";
 
-function RecentProjects() {
-  const recentData = [
+function Blog() {
+  const blogData = [
     {
       Image: web1,
       title: "Revo",
@@ -24,10 +24,10 @@ function RecentProjects() {
   return (
     <div className="mt-10">
       <h1 className="font-extrabold text-7xl uppercase">
-        Recent <br /> <span className="text-[#353334]">Projects</span>
+        My <br /> <span className="text-[#353334]">THOUGHTS</span>
       </h1>
 
-      {recentData.map((items, index) => (
+      {blogData.map((items, index) => (
         <div className="w-[80%] rounded-xl p-4 mt-10 relative hover:bg-[#1C1A19] transition-all duration-300 group">
           <div className="flex items-center">
             <img
@@ -47,4 +47,4 @@ function RecentProjects() {
   );
 }
 
-export default RecentProjects;
+export default Blog;
