@@ -2,9 +2,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="w-full h-full bg-red-700">
-      <p className="text-2xl text-white">
-        © by <span>Zaeem Shakeel</span> | All Rights Reserved<span>2025</span>
+    <div className="w-[80%] h-[100px]">
+      <p className="text-2xl text-white text-center">
+        © by <span className="font-bold text-orange-500">Zaeem Shakeel</span> |
+        All Rights Reserved{" "}
+        <span className="font-bold text-orange-500">2025</span>
       </p>
     </div>
   );

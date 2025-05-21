@@ -6,6 +6,7 @@ import Experiences from "./Experiences.JSX";
 import Languages from "./Languages";
 import Blog from "./Blog";
 import Contact from "./Contact";
+import Footer from "../components/Footer";
 
 function MainSection() {
   return (
@@ -17,6 +18,7 @@ function MainSection() {
       <Languages />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }

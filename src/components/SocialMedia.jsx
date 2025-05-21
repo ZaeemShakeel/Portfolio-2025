@@ -7,12 +7,12 @@ import { PiNotePencilDuotone } from "react-icons/pi";
 
 function SocialMedia() {
   return (
-    <div className="w-[60%] flex justify-evenly items-center">
-      <BiHomeAlt className="text-3xl text-black" />
-      <GoFileDirectory className="text-3xl text-black" />
-      <PiHandbagSimple className="text-3xl text-black" />
-      <FiTool className="text-3xl text-black" />
-      <PiNotePencilDuotone className="text-3xl text-black" />
+    <div className="w-[60%] flex justify-evenly items-center hover:text-orange-500">
+      <BiHomeAlt className="text-3xl text-black  hover:text-orange-500 transition-all duration-200 hover:scale-150" />
+      <GoFileDirectory className="text-3xl text-black hover:text-orange-500 transition-all duration-200 hover:scale-150" />
+      <PiHandbagSimple className="text-3xl text-black hover:text-orange-500 transition-all duration-200 hover:scale-150" />
+      <FiTool className="text-3xl text-black hover:text-orange-500 transition-all duration-200 hover:scale-150" />
+      <PiNotePencilDuotone className="text-3xl text-black hover:text-orange-500 transition-all duration-200 hover:scale-150" />
     </div>
   );
 }
